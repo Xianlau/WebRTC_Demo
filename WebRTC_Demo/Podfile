@@ -1,0 +1,14 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '10.3'
+
+target 'WebRTC_Demo' do
+
+use_frameworks!
+
+    pod 'GoogleWebRTC', '~> 1.1'
+    pod 'Starscream', '~> 3.0'
+    pod 'SnapKit', '~> 4.0.0'
+    
+end
